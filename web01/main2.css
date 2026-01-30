@@ -1,0 +1,200 @@
+@charset "utf-8";
+#page2 {
+    background-color: #f7f2ff;
+    background-image: url("./images/section3_bg1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+    min-height: 80vh;
+}
+.page_title {
+    text-align: left;
+    font-family: 'Wanjudaedunsan';
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.page_grid2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.row3 {
+    display: flex;
+    gap: 40px;
+}
+
+.movie_wrap .col {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: 0.8s;
+}
+
+.movie_wrap .col:hover {
+    background-size: auto 130%;
+}
+
+.movie_lst {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.movie_lst .col {
+    width: 390px;
+    height: 240px;    
+    border-radius: 15px 15px 15px 15px;
+}
+#movie1 { 
+    background-image: url("./images/row03_1.jpg");
+}
+
+#movie2 { 
+    background-image: url("./images/row03_2.jpg");
+}
+
+#movie3 { 
+    background-image: url("./images/row03_3.jpg");
+}
+
+#movie4 { 
+    background-image: url("./images/row03_4.jpg");
+}
+
+#movie5 { 
+    background-image: url("./images/row03_5.jpg");
+}
+
+#movie6 { 
+    background-image: url("./images/row03_6.jpg");
+}
+
+#movie7 { 
+    background-image: url("./images/row03_7.jpg");
+}
+
+.movie_lst .col a {
+    display:block;
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/ico05.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.movie_lst .col a:hover {
+    background: none;
+}
+.movie_lst .col .tit3{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    color: #181818;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.row4 {
+    clear:both;
+    width: 100%;
+    height: auto;
+    margin-top: 36px;
+}
+
+.box_tit {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Wanjudaedunsan';
+    padding-top: 24px;
+}
+
+.box_lst {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box_lst .box_item a {
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.box_lst .box_img {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    border: 1px solid #c2c2c2;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.box_lst .box_item_tit {
+    text-align: center;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    position:absolute;
+    left: 0;
+    bottom: 8px;
+}
+
+#box_item1 .box_img {
+    background-image: url("./images/box_icon1.png");
+}
+
+#box_item2 .box_img {
+    background-image: url("./images/box_icon2.png");
+}
+
+#box_item3 .box_img {
+    background-image: url("./images/box_icon3.png");
+}
+
+#box_item4 .box_img {
+    background-image: url("./images/box_icon4.png");
+}
+
+#box_item5 .box_img {
+    background-image: url("./images/box_icon5.png");
+}
+
+#box_item6 .box_img {
+    background-image: url("./images/box_icon6.png");
+}
+
+#box_item7 .box_img {
+    background-image: url("./images/box_icon7.png");
+}
+
+#box_item8 .box_img {
+    background-image: url("./images/box_icon8.png");
+}
+
+#box_item9 .box_img {
+    background-image: url("./images/box_icon9.png");
+}
+
+.box_item a:hover .box_img {
+    background-color: #7401b8;
+    text-decoration: underline;
+}
+.box_item a:hover .box_item_tit {
+    text-decoration: underline;
+}

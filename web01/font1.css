@@ -1,0 +1,79 @@
+@charset "utf8";
+
+@font-face {
+    font-family: 'JeonjuSoon';
+    src: url('./fonts/JeonjuSunL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JeonjuCraftGo';
+    src: url('./fonts/JeonjuCraft_Go_Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WanjuDaedunsan';
+    src: url('./fonts/Wanjudaedunsan.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face{
+    font-family:'JeonjuCraftMj'; 
+    src:url('./fonts/JeonjuCraft_Mj_Bold.ttf') format('truetype');
+    font-weight:600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family:'JeonjuCraftMj'; 
+    src:url('/fonts/JeonjuCraft_Mj_Light.ttf') format('truetype');
+    font-weight:200;
+    font-style: normal;
+    font-display: swap;
+}
+ @font-face{ 
+    font-family:'JeonjuWanpanbonGag'; 
+    src:url('./fonts/JeonjuWanpanbonSoonGagBold.ttf') format('truetype');
+    font-weight:200;
+    font-style: normal;
+}
+@font-face{
+    font-family:'JeonjuWanpanbonGag'; 
+    src:url('./fonts/JeonjuWanpanbonSoonGagLight.ttf') format('truetype');
+    font-weight:200;
+    font-style: normal;
+}
+@font-face{
+    font-family:'JeonjuWanpanbonGag'; 
+    src:url('./fonts/JeonjuWanpanbonSoonGagRegular.ttf') format('truetype');
+    font-weight:400;
+    font-style: normal;
+}
+@font-face{
+    font-family:'JeonjuWanpanbonSoon'; 
+    src:url('./fonts/JeonjuWanpanbonSoonBold.ttf') format('truetype');
+    font-weight:600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family:'JeonjuWanpanbonSoon'; 
+    src:url('./fonts/JeonjuWanpanbonSoonLight.ttf') format('truetype');
+    font-weight:200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family:'JeonjuWanpanbonSoon'; 
+    src:url('./fonts/JeonjuWanpanbonSoonRegular.ttf') format('truetype');
+    font-weight:400;
+    font-style: normal;
+    font-display: swap;
+}

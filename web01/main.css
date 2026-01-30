@@ -1,0 +1,112 @@
+@charset "utf-8";
+.page {
+    clear: both;
+    width: 100vw;
+    padding: 10px;
+}
+
+.page_wrap {
+    width: 1280px;
+    margin: 40px;
+    padding: 0 16px;
+}
+
+.page_title {
+    text-align: left;
+    font-family: 'Wanjudaedunsan';
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.page_grid {
+    clear: both;
+    width: 100%;
+}
+
+#page1 {
+    background-image: url("./images/section2_bg1.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right top;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 figure, .row2 figure {
+    filter: brightness(0.8);
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+
+.row1 figure:hover, .row2 figure:hover {
+    filter: brightness(1.2);
+}
+
+.big_thumb {
+    position: relative;
+}
+
+.big_thumb img {
+    width: 96.5%;
+    height : auto;
+    border: 1px solid #f1f1f1;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.big_thumb:hover img {
+    border: 1px solid #d4d4d4;
+}
+
+.big_thumb .thumb_content {
+    position:absolute;
+    width: 120px;
+    top: 0px;
+    z-index: 80;    
+}
+
+.tit1, .tit2, .tit3 {
+    text-align: center;
+    min-width: 30px;
+    padding: 0 0.2em 0.2em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 15px 0 15px 0;
+}
+
+.tit1 {
+    min-width:5em; 
+    padding:0.2em 0.8em 0.3em;
+    font-size:20px;
+    background-color: #7401b8;
+}
+
+.tit2 {
+    font-size: 36px;
+}
+
+.s_thumb {
+    position: relative;
+}
+
+.s_thumb img {
+    border: 1px solid #f1f1f1;
+    border-radius: 15px 15px 15px 15px;
+    width: 95%;
+    height : auto;
+}
+
+.s_thumb:hover img {
+    filter: brightness(1.2);
+}
+
+.s_thumb .thumb_content {
+    position:absolute;
+    width: 120px;
+    top: 0px;
+    z-index: 80;  
+}
