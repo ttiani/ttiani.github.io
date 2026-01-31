@@ -10,31 +10,31 @@
 #vs1 {
     clear:both;
     width: 100vw;
-    min-height: 450px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("./images/bg_visual-1.jpg");
+    min-height: 360px;
+    background-image: url("./images/bg_visual-1.png");
     background-position:right top;
     background-repeat: no-repeat;
 }
 .vs_tit{
     font-family: 'Wanjudaedunsan';
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
     font-size: 40px;
-    color: #343434;
-    font-weight: bold;
+    color: #464646;
+    font-weight: 500;
 }
 .vs_sub_tit {
     font-family: 'Wanjudaedunsan';
     text-align: center;
-    color:#414141;
+    color:#626262;
     font-weight: 400;
-    padding-top: 10px;
-    font-size:20px;
+    font-size:30px;
+    padding-top: 8px;
 }
 .content_wrap {
     width: 1280px;
     margin: 0 auto; 
-    margin-top: -131px;
+    margin-top: -151px;
 }
 #left_bar {
     width: 200px;
@@ -51,9 +51,10 @@
     background-color: #5a5a5a;
     color: #fff;
     font-weight: 500;
-    line-height: 130px;
+    height:130px;
+    padding-top: 50px;
     font-size: 30px;
-    text-align: center;
+    text-align:center;
     border-radius: 8px 0 0 0;
 }
 .lnb_tit_box {
@@ -230,9 +231,6 @@
 .art p + hr {
     display: none; 
 }
-/* .art{
-    border-bottom: 1px solid #b2b2b2;
-} */
 
 .info_box {
     clear:both;

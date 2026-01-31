@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전주 문화 관광</title>
+    <!-- 메타포: 바로 가기 아이콘, 홈페이지 제목, 검색어, 설명 -->
+    <meta name="title" content="전주시청 관광문화 홈페이지">
+    <meta name="keywords" content="전주관광문화, 전주시청 관광문화, 전주시 여행정보">
+    <meta name="description" content="전주관광문화 홈페이지">
+    <!-- 오픈 그래프 -->
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="전주시청 관광문화 홈페이지">
+    <meta property="og:description" content="전주관광문화 홈페이지">
+    <meta property="og:site_name" content="전주관광문화">
+    <meta property="og:url" content="https://">   <!-- 실제 사이트 주소로 변경 -->
+    <meta property="og:image" content="https://">
+    <!-- 폰트, 초기화(reset.css), 아이콘 셋 -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="font1.css">
+    <link rel="stylesheet" href="iconset.css">
+    <!-- <link rel="stylesheet" href="xeicon.css"> -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="vs.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main2.css">
+    <style>
+    h1, h2, h3, h4, h5, h6 { font-family: 'Noto', sans-serif; line-height:1.6; padding-top:0.6em; padding-bottom:0.6em; }
+    h1 { font-weight: 900; font-size:72px; }
+    h2 { font-weight: 800; font-size:60px; }
+    h3 { font-weight: 700; font-size:48px; }
+    h4 { font-weight: 600; font-size:36px; }
+    h5 { font-weight: 500; font-size:20px; }
+    h6 { font-weight: 400; font-size:12px; }
+    p { font-family: 'Noto', sans-serif; font-weight:400; }
+    </style> 
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="sub_common.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+    /* 현재 페이지에만 적용되는 스타일 */ 
+    #lnb {
+        min-height:150vh;
+    }
+
+    #vs1 {
+        background-image: url("./images/bg_visual-1.png") no-repeat 100% 0;
+    }   
+
+    .vs_tit {
+        color:#333;
+    }
+
+    .vs_sub_tit {
+        color: #333;
+    }
+
+    .page_tit_box {
+        border-top:1px solid #bbb;
+    }
+
+    .sec_tit {
+        font-size: 20px;
+    }
+    .con {
+        margin-top: 42px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding : 24px;  
+        border: 1px solid #e6e6e6;
+        border-radius: 1.5em;
+    }
+    .form_wrap {
+        width: 940px;
+        position: relative;
+    }
+
+    .form1 {
+        clear:both;        
+        margin: 24px 24px;
+    }
+
+    .form_con {
+        width: 892px;
+        background-color: #fafafa;;
+        height: auto;
+        padding : 28px;
+        overflow-y: auto;
+    }
+    .form_con .cate_tit {
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        color: #242424;
+    }
+    .form_con.cate_con{
+        counter-reset: number;
+        padding-left: 12px;    
+        padding-bottom: 8px;
+    }
+    .cate_con>li::before{
+        content: counter(number) ".";
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .cate_con>li {
+        counter-increment: number;
+        position: relative;
+        padding-left: 12px;
+        padding-bottom: 8px;
+        color:#333;
+    }
+    .cate_con_u>li::before{
+        content: "-";
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .cate_con_u>li {
+        position: relative;
+        padding-left: 12px;    
+        padding-bottom: 8px;
+        color:#333;
+    }
+    .txt_ctrl {
+        display:block;
+        width: 80%;
+        line-height: 48px;
+        margin-bottom: 32px;
+        padding-left: 14px;
+    }
+
+    .btn_con {
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .btn_ctrl {
+        display: block;
+        border-radius: 8px;
+        line-height: 36px;
+        background-color: #169aff;
+        color: #fff;
+        text-align: center;
+        border: none;
+        outline: none;
+        padding: 0 14px;
+        cursor: pointer;
+        padding-left: 28px;
+        background-position: 10px center;
+        background-repeat: no-repeat;
+    }
+
+    .btn_ctrl.login {
+        padding-left: 20px;
+    }
+
+    .btn_ctrl.join {
+        background-image: url("./images/login-icon-mem.png");
+    }
+
+    .btn_ctrl.find {
+        background-image: url("./images/login-icon-search.png");
+    }
+
+    .check_group {
+        clear: both;
+        height: 90px;
+        line-height: 40px;
+    }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <header id="hd">
+        <div class="container">
+            <a href="/" class="logo"><img src="./images/logo_jeonju.svg" alt="전주문화관광로고"></a>
+            <nav class="gnb">
+                <ul class="menu">
+                    <li>
+                        <a href="sub1.html" class="dp1">전주나들이</a>
+                        <ul class="sub">
+                            <li><a href="sub11.html">주요명소</a></li>
+                            <li><a href="sub12.html">전주사계</a></li>
+                            <li><a href="sub13.html">Feeling JJ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sub2.html" class="dp1">추천여행</a>
+                        <ul class="sub">
+                            <li><a href="sub31.html">이달의 추천여행</a></li>
+                            <li><a href="sub32.html">자전거길</a></li>
+                            <li><a href="sub33.html">여행코스</a></li>
+                            <li><a href="sub34.html">미식여행</a></li>
+                            <li><a href="sub35.html">무장애여행</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sub3.html" class="dp1">축제.행사</a>
+                        <ul class="sub">
+                            <li><a href="sub31.html">축제/공연/전시</a></li>
+                            <li><a href="sub32.html">야간관광</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sub4.html" class="dp1">음식.숙박.쇼핑</a>
+                        <ul class="sub">
+                            <li><a href="sub41.html">전주의 맛</a></li>
+                            <li><a href="sub42.html">숙박</a></li>
+                            <li><a href="sub43.html">쇼핑</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sub5.html" class="dp1">여행도우미</a>
+                        <ul class="sub">
+                            <li><a href="sub51.html">관광안내소</a></li>
+                            <li><a href="sub52.html">셔틀버스</a></li>
+                            <li><a href="sub53.html">주차장</a></li>
+                            <li><a href="sub54.html">도보해설투어</a></li>
+                            <li><a href="sub55.html">관광지도</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="sub6.html" class="dp1">유용한 정보</a>
+                        <ul class="sub">
+                            <li><a href="sub61.html">공지</a></li>
+                            <li><a href="sub62.html">여행상품 홍보관</a></li>
+                            <li><a href="sub63.html">랜선 전주여행</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="tnb">
+                <a href="login.html">로그인</a>
+                <a href="join.html">회원가입</a>
+                <a href="contact.html">Contact US</a>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        <figure id="vs1">
+            <h2 class="vs_tit">개인정보처리방침</h2>
+            <h4 class="vs_sub_tit">이용안내</h4>
+        </figure>
+        <div class="content_wrap">
+            <aside id="left_bar">
+                <div class="lnb_tit_box">
+                    <h3 class="lnb_tit">이용안내</h3>
+                </div>
+                <nav id="lnb">
+                    <ul>
+                        <li><a href="log.html">로그인</a></li>
+                        <li><a href="member.html">회원가입</a></li>
+                        <li><a href="promotion.html">회원약관</a></li>
+                        <li><a href="privacy.html" class="active">개인정보처리방침</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="content_art">
+                <div class="page_tit_box">
+                    <h3 class="page_tit">개인정보처리방침</h3>
+                    <p class="breadcrumb"><a href="/">HOME</a> &gt; 
+                        <span>이용안내</span>
+                    &gt; <span>개인정보처리방침</span></p>
+                </div>
+                <section class="con">
+                    <div class="form_wrap">
+                        <form action="" id="agree_form" class="form1">
+                            <div class="form_con">
+                                <strong class="cate_tit">제1조 총칙</strong>
+                                <ol class="cate_con">
+                                    <li>개인정보란 생존하는 개인에 관한 정보로서 당해 정보에 포함되어 있는 성명, 전화번호, 주소 등의 사항에 의해 당해 개인을 식별할 수 있는 정보(당해 정보만으로는 특정 개인을 식별할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함)를 말합니다.</li>
+                                    <li>본 개인정보처리방침은 사이트에서 수집 또는 이용하는 고객의 개인정보에 적용됩니다.</li>
+                                    <li>사이트는 이용자의 개인정보를 중요시하고, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, 「개인정보보호법」등의 관련 법률을 준수하고 있으며, 그에 의거한 개인정보처리방침을 정하여 이용자의 권익 보호에 최선을 다하고 있습니다.</li>
+                                    <li>사이트는 개인정보처리방침을 통하여 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.</li>
+                                    <li>사이트는 개인정보처리방침의 지속적인 개선을 위하여 개인정보처리방침을 개정하는데 필요한 절차를 정하고 있습니다. 그리고 개인정보처리방침을 개정하는 경우 개정 최소 7일 전부터 웹사이트를 통해 고지하도록 하고 있습니다.</li>
+                                </ol>
+                                <strong class="cate_tit">제2조 개인정보 수집·이용 목적</strong>
+                                <p>서비스 제공을 위하여 필요한 최소한의 범위 내에서 다음 각 항목과 같은 목적으로 개인정보를 수집하고 있습니다.</p>
+                                <br>
+                                <ul class="cate_con_u">
+                                    <li>온라인 예약(공연/전시, 체험/놀이)</li>
+                                    <li>이용약관, 개인정보처리방침, 사이트 정책 제/개정에 관한 공지</li>
+                                    <li>사이트가 제공하는 서비스 및 정보 제공 (SMS/전자우편(E-mail) 등)</li>
+                                    <li>서비스 이용/참여 등을 위한 원활한 의사소통의 경로 확보</li>
+                                    <li>업무와 관련된 통계자료 작성 및 서비스 개발</li>
+                                </ul>
+                                <strong class="cate_tit">제3조 개인정보 수집항목</strong>
+                                <ol class="cate_con">
+                                    <li>「개인정보 보호법」 제32조에 따라 등록ㆍ공개하는 거제시의 개인정보파일별 개인정보 항목은 『개인정보 포털』(www.privacy.go.kr) 에서 안내하고 있습니다.</li>
+                                    <li>본 개인정보처리방침은 사이트에서 수집 또는 이용하는 고객의 개인정보에 적용됩니다.</li>
+                                    <li>사이트는 이용자의 개인정보를 중요시하고, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, 「개인정보보호법」등의 관련 법률을 준수하고 있으며, 그에 의거한 개인정보처리방침을 정하여 이용자의 권익 보호에 최선을 다하고 있습니다.</li>
+                                    <li>사이트는 개인정보처리방침을 통하여 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.</li>
+                                </ol>
+                                <strong class="cate_tit">제4조 개인정보의 보유, 이용기간 및 파기</strong>
+                                <ol class="cate_con">
+                                    <li>개인정보란 생존하는 개인에 관한 정보로서 당해 정보에 포함되어 있는 성명, 전화번호, 주소 등의 사항에 의해 당해 개인을 식별할 수 있는 정보(당해 정보만으로는 특정 개인을 식별할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함)를 말합니다.</li>
+                                    <li>본 개인정보처리방침은 사이트에서 수집 또는 이용하는 고객의 개인정보에 적용됩니다.</li>
+                                    <li>사이트는 이용자의 개인정보를 중요시하고, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, 「개인정보보호법」등의 관련 법률을 준수하고 있으며, 그에 의거한 개인정보처리방침을 정하여 이용자의 권익 보호에 최선을 다하고 있습니다.</li>
+                                    <li>사이트는 개인정보처리방침을 통하여 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.</li>
+                                </ol>
+                                <strong class="cate_tit">제5조 개인정보 제3자 제공 및 공유</strong>
+                                <ol class="cate_con">
+                                    <li>개인정보란 생존하는 개인에 관한 정보로서 당해 정보에 포함되어 있는 성명, 전화번호, 주소 등의 사항에 의해 당해 개인을 식별할 수 있는 정보(당해 정보만으로는 특정 개인을 식별할 수 없더라도 다른 정보와 용이하게 결합하여 식별할 수 있는 것을 포함)를 말합니다.</li>
+                                    <li>본 개인정보처리방침은 사이트에서 수집 또는 이용하는 고객의 개인정보에 적용됩니다.</li>
+                                    <li>사이트는 이용자의 개인정보를 중요시하고, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」, 「개인정보보호법」등의 관련 법률을 준수하고 있으며, 그에 의거한 개인정보처리방침을 정하여 이용자의 권익 보호에 최선을 다하고 있습니다.</li>
+                                    <li>사이트는 개인정보처리방침을 통하여 이용자가 제공하는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며 개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려드립니다.</li>
+                                </ol>
+                            </div>    
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main> 
+    <footer id="ft">
+        <div class="container">
+            <nav id="banner_bar">
+                <ul>
+                    <li><a href="https://www.gov.kr/portal/main"><img src="./images/banner01.png" style="width: 108px;" alt="정부24"></a></li>
+                    <li><a href="https://www.laiis.go.kr/lips/mlo/lcl/organizationList.do"><img src="./images/banner_02.gif" style="width: 108px;" alt="행정안전부 내고장알리미"></a></li>
+                    <li><a href="https://https://www.110.go.kr"><img src="./images/banner03.png" style="width: 108px;" alt="국민콜100"></a></li>
+                    <li><a href="https://www.jeonju.go.kr/"><img src="./images/banner04.png" style="width: 108px;" alt="전주시"></a></li>
+                    <li><a href="https://www.jeonbuk.go.kr/index.jeonbuk"><img src="./images/banner05.png" style="width: 108px;" alt="전라북도"></a></li>
+                    <li><a href="https://www.epeople.go.kr/index.jsp"><img src="./images/banner06.png" style="width: 108px;" alt="국민신문고"></a></li>
+                    <li><a href="https://hometax.go.kr/"><img src="./images/banner07.png" style="width: 108px;" alt="홈택스"></a></li>
+                    <li><a href="https://www.bokjiro.go.kr/ssis-teu/index.do"><img src="./images/banner08.png" style="width: 108px;" alt="복지로"></a></li>
+                    <li><a href="https://www.kahp.or.kr"><img src="./images/banner09.png" style="width: 108px;" alt="한국건강관리협회"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="ft_sub">
+            <div class="ft_container">
+                <nav id="fnb">
+                    <a href="privacy.html">개인정보처리방침</a>
+                    <a href="#">저작권정책</a>
+                    <a href="#">이메일수집거부</a>
+                    <a href="#">사이트맵</a>
+                </nav>
+                <br>
+                <div class="copyright">
+                    <p class="addr" font color="white">(54994) 전북특별자치도 전주시 완산구 노송광장로 10</p>
+                    <p class="tel" font color="white">대표전화 : 063-222-1000</p>
+                    <p class="copy" font color="white">Copyright © JEONJU CITY. ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -50,6 +50,7 @@ a { text-decoration: none; color: #333; }
 .gnb .menu> li {
     position:relative;
 }
+.gnb .menu a:hover#{ color:#e35d4a}
 .gnb .menu a.dp1 {
     font-size: 20px;
     font-weight: 700;
@@ -72,19 +73,10 @@ a { text-decoration: none; color: #333; }
 .gnb:hover .menu li .sub {
     height: 165px;
 }
-/*
-.gnb .menu .dp1::after{display:inline-block; content:""; width:0; height:3px;}
-.gnb .menu .dp1:hover{color:var(#03a9f4); } 
-.gnb .menu .dp1:hover:after
-{ animation: widthLeft 0.37s ease forwards; 
-background:var(#03a9f4); 
-position: absolute; 
-left:0; bottom:0;
-}*/
 .gnb .sub li:hover a {
     text-decoration: underline;
     font-weight: bold;
-    background-color: #f1f4f1;
+    color: #ff9152;
     boder-bottom : 1px solid rgba(178, 178, 178, 0.8)
 }
 .gnb .sub li {
