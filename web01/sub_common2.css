@@ -1,18 +1,18 @@
 @charset "utf-8";
 .content {
     clear:both;
-    width: 1280px;
 }
 
 .content:after {
     content:"";
     display: block;
+    width: 100%;
 }
 
 #vs1 {
     clear:both;
     width: 100vw;
-    min-height: 200px;
+    height: 146px;
     background-image: url("./images/bg_visual-1.png");
     background-position:right top;
     background-repeat: no-repeat;
@@ -21,22 +21,21 @@
 .vs_tit{
     font-family: 'Wanjudaedunsan';
     text-align: center;
-    padding: 32px 0;
-    margin : 0 20px;
+    padding: 24px 0;
+    margin : 0 16px;
     font-size: 48px;
     color: #464646;
     font-weight: 700;
 }
 
-.vs_sub_tit {
+/* .vs_sub_tit {
     font-family: 'Wanjudaedunsan';
     text-align: center;
     color:#626262;
     font-weight: 600;
     font-size:36px;
     padding: 8px 0;
-    border: 1px solid blue;
-}
+} */
 
 .breadcrumb {
     text-align: center;
@@ -46,7 +45,6 @@
     padding-right: 10px;
     font-weight: 400;
     color:#687189;
-    border: 1px solid rgb(0, 0, 0);
 }
 
 .breadcrumb span {
@@ -54,11 +52,10 @@
 }
 
 .content_wrap {
+    display: block;
     width: 1280px;
-    height: auto;
     margin: 0 auto; 
     margin-top: 0px;
-    border-top: 1px solid #b2b2b2;
 }
 
 #left_bar {
@@ -68,18 +65,22 @@
 
 .content_art {
     width: 1080px;
-    display: flex;
-    align-items: center;
+    height: auto;
+    display: relative;
+    float: left;
     padding: 0 25px;
     background: #fff;
-    border: 1px solid blue;
+    border-top: 1px solid rgb(221, 221, 221);
 }
 
 .lnb_tit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #5a5a5a;
     color: #fff;
     font-weight: 500;
-    height:130px;
+    height:120px;
     padding-top: 50px;
     font-size: 30px;
     text-align:center;
@@ -87,7 +88,7 @@
 }
 
 .lnb_tit_box {
-    height:130px;
+    height:120px;
 }
 
 #lnb {
@@ -115,19 +116,6 @@
     background-color:#9a9a9a;
     color: #fff;
     border: 1px solid #9a9a9a;
-}
-
-.page_tit_box {
-    background-color: rgba(255,255,255,0.2);
-}
-
-.page_tit {
-    line-height:60px;
-    font-size: 28px;
-    padding-top: 30px;
-    color : #666564;
-    font-weight:600;
-    border: 1px solid red;
 }
 
 .tab_ra {

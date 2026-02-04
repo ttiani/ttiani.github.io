@@ -56,9 +56,27 @@
     .vs_sub_tit {
         color: #333;
     }
-
     .page_tit_box {
-        border-top:1px solid #bbb;
+        height: 110px;
+        background-color: rgba(255,255,255,0.2);
+        padding-left: 24px;
+    }
+    .page_tit {
+        line-height:60px;
+        font-size: 28px;
+        padding-top: 14px;
+        color : #666564;
+        font-weight:600;
+    }
+    .breadcrumb a, .breadcrumb span {
+        padding-right: 10px;
+        font-weight: 400;
+        color:#687189;
+        text-align: center;
+    }
+    .breadcrumb span {
+        padding-left: 8px;
+        text-align: center;
     }
     .form_wrap {        
         width: 560px;
@@ -73,13 +91,13 @@
         margin: 0 auto;
         position: relative;
         height: 500px;
-        padding: 40px;
+        padding: 30px;
         box-sizing: border-box;
     }
     .join_wrap > h2{
         font-size: 24px;
-        color: #6A24FE;
-        margin-bottom: 20px;
+        color: #666564;
+        margin-bottom: 30px;
     }
     #login-form{
         width: 320px;
@@ -121,7 +139,7 @@
     #login-form > button[type="submit"]{
         color: #fff;
         font-size: 16px;
-        background-color: #6A24FE;
+        background-color: #666564;
         margin-top: 20px;
     }
     #login-form > label{
@@ -238,7 +256,7 @@
         <div class="content_wrap">
             <aside id="left_bar">
                 <div class="lnb_tit_box">
-                    <h3 class="lnb_tit">이용안내</h3>
+                    <div class="lnb_tit">이용안내</div>
                 </div>
                 <nav id="lnb">
                     <ul>
@@ -251,7 +269,7 @@
             </aside>
             <div class="content_art">
                 <div class="page_tit_box">
-                    <h3 class="page_tit">회원가입</h3>
+                    <div class="page_tit">회원가입</div>
                     <p class="breadcrumb"><a href="/">HOME</a> &gt; 
                         <span>이용안내</span>
                     &gt; <span style="font-weight: bold;">회원가입</span></p>
