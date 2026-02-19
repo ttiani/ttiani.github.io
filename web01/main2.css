@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 #page2 {
     background-color: #f7f2ff;
     background-image: url("./images/section3_bg1.png");
@@ -7,6 +8,7 @@
     background-position: left bottom;
     min-height: 80vh;
 }
+
 .page_title {
     text-align: left;
     font-family: 'Wanjudaedunsan';
@@ -45,63 +47,63 @@
 
 .movie_lst .col {
     width: 390px;
-    height: 240px;    
+    height: 240px;
     border-radius: 15px 15px 15px 15px;
 }
-#movie1 { 
+
+#movie1 {
     background-image: url("./images/row03_1.jpg");
 }
 
-#movie2 { 
+#movie2 {
     background-image: url("./images/row03_2.jpg");
 }
 
-#movie3 { 
+#movie3 {
     background-image: url("./images/row03_3.jpg");
 }
 
-#movie4 { 
+#movie4 {
     background-image: url("./images/row03_4.jpg");
 }
 
-#movie5 { 
+#movie5 {
     background-image: url("./images/row03_5.jpg");
 }
 
-#movie6 { 
+#movie6 {
     background-image: url("./images/row03_6.jpg");
 }
 
-#movie7 { 
+#movie7 {
     background-image: url("./images/row03_7.jpg");
 }
 
 .movie_lst .col a {
-    display:block;
+    display: block;
     width: 100%;
     height: 100%;
-    background-image: url("./images/ico05.png");
+    background-image: url("./images/btn_play.png");
+    background-size: 100px;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.movie_lst .col a:hover {
-    background: none;
-}
-.movie_lst .col .tit3{
+.movie_lst .col .tit3 {
     display: block;
     width: 100%;
     overflow: hidden;
     text-align: left;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
+    padding-top: 10px;
     color: #181818;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 .row4 {
-    clear:both;
+    clear: both;
     width: 100%;
     height: auto;
     margin-top: 36px;
@@ -115,7 +117,7 @@
 }
 
 .box_lst {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     padding-top: 12px;
     padding-left: 50px;
@@ -150,7 +152,7 @@
     font-size: 20px;
     width: 100%;
     height: 30px;
-    position:absolute;
+    position: absolute;
     left: 0;
     bottom: 8px;
 }
@@ -195,6 +197,7 @@
     background-color: #7401b8;
     text-decoration: underline;
 }
+
 .box_item a:hover .box_item_tit {
     text-decoration: underline;
 }
