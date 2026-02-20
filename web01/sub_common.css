@@ -44,10 +44,12 @@
     margin: 0 auto; 
     /* margin-top: -151px; */
 }
+
 #left_bar {
     width: 200px;
     float: left;
 }
+
 .content_art {
     width: 1080px;
     position: relative;
@@ -56,6 +58,7 @@
     background: #fff;
     border-top: 1px solid rgb(221, 221, 221);
 }
+
 .lnb_tit {
     display: flex;
     justify-content: center;
@@ -67,19 +70,24 @@
     font-size: 30px;
     border-radius: 8px 0 0 0;
 }
+
 .lnb_tit_box {
     height:120px;
 }
+
 #lnb {
     clear:both;
+    width: 200px;
     min-height: 247vh;
     margin-top: 4px
 }
+
 #lnb li {
     width: 100%;
     border: 1px solid #ddd;
     margin: 3px 0;
 }
+
 #lnb li a {
     display: block;
     color:#687189;
@@ -88,6 +96,7 @@
     height: 48px;
     line-height: 48px; 
 }
+
 #lnb li a.active {
     background-color:#9a9a9a;
     color: #fff;

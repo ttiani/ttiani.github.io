@@ -91,7 +91,7 @@
         margin: 0 auto;
     }
 
-    #login-form, #login-form > input, #login-form > button{
+    #join-form, #join-form > input, #join-form > button{
         width: 100%;
     }
 
@@ -101,7 +101,7 @@
         margin-bottom: 30px;
     }
 
-    #login-form{
+    #join-form{
         height: 300px;
         padding: 0 10px;
         box-sizing: border-box;
@@ -109,7 +109,7 @@
         border-radius: 6px;
     }
 
-    #login-form > input{
+    #join-form > input{
         height: 40px;
         padding: 0 10px;
         box-sizing: border-box;
@@ -118,7 +118,7 @@
         background-color: #F8F8F8;
     }
 
-    #login-form > button{
+    #join-form > button{
         height: 40px;
         padding: 0 10px;
         box-sizing: border-box;
@@ -127,22 +127,22 @@
         background-color: #F8F8F8;
     }
 
-    #login-form > input::placeholder{
+    #join-form > input::placeholder{
         color: #D2D2D2;
     }
-    #login-form > input[type="checkbox"]{
+    #join-form > input[type="checkbox"]{
         color: #fff;
         font-size: 16px;
         background-color: #6A24FE;
         margin-top: 20px;
     }
-    #login-form > button[type="submit"]{
+    #join-form > button[type="submit"]{
         color: #fff;
         font-size: 16px;
         background-color: #666564;
         margin-top: 20px;
     }
-    #login-form > label{
+    #join-form > label{
         color: #999999;
     }
 
@@ -275,12 +275,12 @@
                     <div class="form_wrap" id="form1">
                         <div class="join_wrap">
                             <h2>회원 가입</h2>
-                            <form action="/join" method="post" id="login-form">
+                            <form action="/join" method="post" id="join-form">
                                 <input type="text" name="username" placeholder="아이디를 입력하세요" required autofocus>
                                 <button type="button" id="confirm">아이디 중복 확인</button>
                                 <input type="hidden" name="id_ck" id="id_ck">
-                                <input type="password" name="password" id="password" class="txt_ctrl" placeholder="비밀번호" required>
-                                <input type="password" name="passwordconfirm" id="passwordconfirm" class="txt_ctrl" placeholder="비밀번호 확인" required>
+                                <input type="password" name="password" id="pw" class="txt_ctrl" placeholder="비밀번호" required>
+                                <input type="password" name="passwordconfirm" id="pw2" class="txt_ctrl" placeholder="비밀번호 확인" required>
                                 <input type="text" name="name" class="txt_ctrl" placeholder="이름을 입력하세요" required>
                                 <button type="submit" class="btn_ctrl join">회원가입</button>
                             </form>
