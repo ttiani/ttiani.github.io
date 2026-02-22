@@ -58,6 +58,7 @@
     width: 1280px;
     margin: 0 auto;
     margin-top: 0px;
+    border-top: 1px solid rgb(221, 221, 221);
 }
 
 .content_art {
@@ -65,11 +66,10 @@
     height: auto;
     position: relative;
     background: #fff;
-    border-top: 1px solid rgb(221, 221, 221);
 }
 
 .sub_content{
-    width: 100%;
+    width: 100%;    
 }
 
 .skin_info {
@@ -93,11 +93,12 @@
 
 .intro_con_wrapper {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .intro_con_wrapper img {
-    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
 }
 .round_card {
     text-align: center;       /* 텍스트 가운데 */
