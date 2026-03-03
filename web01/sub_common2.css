@@ -1,0 +1,344 @@
+@charset "utf-8";
+.content {
+    clear: both;
+}
+
+.content:after {
+    content:"";
+    display: block;
+    width: 100%;
+}
+
+#vs1 {
+    clear: both;
+    width: 100vw;
+    height: 146px;
+    background-image: url("./images/bg_visual-1.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.vs_tit {
+    font-family: 'Wanjudaedunsan';
+    text-align: center;
+    padding: 24px 0;
+    margin: 0 16px;
+    font-size: 48px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.vs_sub_tit {
+    font-family: 'Wanjudaedunsan';
+    text-align: center;
+    color:#626262;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 8px 0;
+}
+.content_wrap {
+    display: block;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.content_art {
+    width: 1280px;
+    position: relative;
+    float: left;
+    padding: 0 25px;
+    background: #fff;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+.page_tit_box {
+    height: 110px;
+    background-color: rgba(255,255,255,0.2);
+    padding-left: 24px;
+}
+.page_tit {
+    line-height:60px;
+    font-size: 28px;
+    padding-top: 14px;
+    color : #666564;
+    font-weight:600;
+}
+
+.breadcrumb {
+    text-align: center;
+}
+
+.breadcrumb a, .breadcrumb span {
+    padding-right: 10px;
+    font-weight: 400;
+    color: #687189;
+}
+
+.breadcrumb span {
+    padding-left: 8px;
+}
+
+.sub_content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.sub_article{
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+.skin_info {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+    overflow: hidden;
+    font-size: 28px;
+    font-weight: 600;
+}
+.sub_article{
+    max-width: 1080px;
+    position: relative;;
+    padding: 48px 0;
+}
+.food_balance{
+    width: 100%;
+}
+
+.intro_con_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_con_wrapper img {
+    max-width: 100%;
+}
+
+.round_grid{
+    margin-top: 200px;
+}
+
+.round_card {    
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.round_header {
+    width: 80%;
+    max-width: 570px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #0f0952;
+    border-radius: 136px;
+    box-shadow: 4px 4px 0px 0px #0c092b;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.round_detail_label{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+}
+
+.round_detail_title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1;
+    text-align: center;
+}
+
+.round_header_desc {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 1.42;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.battle_sec {
+    position: relative;
+    margin: 45px auto 0;
+}
+
+.battle_banner{
+    display: flex;
+    justify-content: space-between;
+    word-break: keep-all;
+}
+
+.battle_left{
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    width: calc(50% - 10px);
+    padding: 0 10px;
+}
+
+.battle_right{
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    width: calc(50% - 10px);
+    padding: 0 10px;  
+}
+
+.battle_left > .banner_label{
+    /* background: #fab5e9;
+    border: 1px solod #bdbcd4; */
+    background: #ffdebd;
+    border-radius: 58px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 14px 40px;
+}
+
+.battle_right > .banner_label{
+    /* background: #bdbcd4;
+    border: 1px solid #fab5e9; */
+    background: #b5f5fd;
+    border-radius: 58px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 14px 40px;
+}
+
+.banner_title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+}
+
+.banner_subtitle{
+    margin: 20px 0 36px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+}
+
+.food_list_img{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.food_list_img img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.food_list_video{    
+    height: 380px;
+    margin: 20px 0 30px;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.food_list_video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food_desc_item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.desc_text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.38;
+    letter-spacing: -0.88px;
+    text-align: center;
+    color: #000;
+}
+
+.desc_left_text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    color: #fc8814;
+}
+
+.desc_right_text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    color: #07cae4;
+}
+
+.tip_sec{
+    margin-top: 30px;
+}
+
+.tip_sec > .tip_card{
+    height: 112px;
+    padding: 20px 10px;
+    position: relative;
+    height: 112px;
+    padding: 20px 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tip_card.left{
+    border: 1px solid #fc8814;
+}
+
+.tip_card.right{
+    border: 1px solid #07cae4;
+}
+
+.tip_border{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    background: white;
+    padding: 0 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+}
+
+.tip_content{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    line-height: 1.56;
+    color: black;
+    text-align: center;
+}
